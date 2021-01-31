@@ -8,7 +8,7 @@ twitter: "https://twitter.com/senmu"
 github: "https://github.com/senmu"
 
 # Site config
-baseurl: "/samlu"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss
