@@ -3,6 +3,7 @@
 
 @charset "UTF-8";
 
+@import "colors";
 @import "variables";
 @import "mixins";
 @import "normalize";
@@ -20,3 +21,10 @@
     text-indent: -9999px;
     width: 180px;
 }
+
+@media (prefers-color-scheme: dark) {
+    #samsLogo {
+        background: url('../images/samlu-logo-darkmode.svg') 0 0 no-repeat;
+    }
+}
+

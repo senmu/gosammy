@@ -3,8 +3,8 @@ html {
 }
 
 body {
-	background: $color-white;
-	color: $color-black;
+    @include color-assign(background-color, background);
+    @include color-assign(color, primary-label);
 	font-family: $font-poppins;
 	font-size: 1.8em;
 	line-height: 1.6;
@@ -14,7 +14,7 @@ body {
 
 h1,
 .h1 {
-	color: $color-black;
+	@include color-assign(color, primary-label);
 	font-size: 2.7rem;
 	font-weight: 600;
 	line-height: 1;
@@ -23,10 +23,10 @@ h1,
 
 h2,
 .h2 {	
-	color: $color-silver-chalice;
+	@include color-assign(color, secondary-label);
 	display: block;
 	font-family: $font-lekton;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: .2rem;
     line-height: 1;
@@ -36,7 +36,7 @@ h2,
 
 h3,
 .h3 {
-	color: $color-black;
+	@include color-assign(color, primary-label);
 	font-family: $font-poppins;
     font-size: 1.8rem;
     font-weight: 600;
@@ -49,7 +49,7 @@ p {
 }
 
 a {
-	color: $color-black;
+	@include color-assign(color, primary-label);
 	text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ img {
 }
 
 hr {
-	background: $color-silver-chalice;
+	@include color-assign(background-color, background-alternate);
 	border: 0;
 	display: block;
 	height: 1px;
@@ -77,13 +77,13 @@ hr {
 }
 
 abbr[title] {
-	border-bottom: 1px dotted $color-black;
+    @include color-assign(border-bottom, primary-label, '1px dotted');
 	text-decoration: none;
 }
 
 code {
-	background: $color-white;
-	border: 1px solid $color-silver-chalice;
+	@include color-assign(background-color, background);
+    @include color-assign(border, secondary-label, '1px solid');
 	border-radius: 3px;
 	font-family: $font-lekton;
 	font-size: 1.5rem;	
@@ -139,7 +139,7 @@ table {
 
 	tbody > tr:nth-child(odd) > td, 
 	tbody > tr:nth-child(odd) > th {
-		background: $color-white-sand;
+        @include color-assign(background-color, background-alternate);
 	}
 
 	th,
@@ -152,7 +152,7 @@ table {
 }
 
 blockquote {
-	border-left: .6rem solid $color-black;
+    @include color-assign(border-left, primary-label, '.6rem solid');
 	padding-left: 2rem;
 	margin: 0 0 3rem;
 
