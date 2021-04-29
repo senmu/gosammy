@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>{{ site.author }} - {{ page.project.title }}</title>
-	<meta name="author" content="{{ site.author }}">
-	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+    <title>{{ site.title }} - {{ page.project.title }}</title>
+    {% seo title=false %}
 	<meta name="keywords" content="{{ page.meta.keywords }}">
 	{% include head.html %}
 </head>

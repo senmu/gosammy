@@ -1,5 +1,6 @@
 # User config
-author: "GoSammy"
+author: senmu
+title: "GoSammy"
 tagline: "Mobile iOS Application Design & Development"
 description: "GoSammy provides consulting on mobile iOS apps, specializing in UI & UX design, all the way to implementation."
 keywords: "swift, swiftui, iOS, developer, development, design, consulting, remote, calgary, alberta, canada"
@@ -7,6 +8,18 @@ linkedin: "https://www.linkedin.com/in/samlu"
 twitter: "https://twitter.com/senmu"
 github: "https://github.com/senmu"
 email: "inquiries@gosammy.com"
+
+# SEO config
+logo: "/assets/images/gosammy-logo-social.png"
+twitter:
+  username: senmu
+  card: summary
+social:
+  name: Sam Lu
+  links:
+    - https://www.linkedin.com/in/samlu
+    - https://twitter.com/senmu
+    - https://github.com/senmu
 
 # Site config
 baseurl: ""
