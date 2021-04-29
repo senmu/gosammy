@@ -12,19 +12,27 @@
 @import "layout";
 @import "syntax";
 
-#samsLogo {
-    background: url('../images/samlu-logo.svg') 0 0 no-repeat;
-    background-size: 180px 35px;
+#gosammyLogo {
+    background: url('../images/gosammy-logo.svg') 0 0 no-repeat;
+    background-size: 360px 84px;
     display: block;
-    height: 35px;
+    height: 84px;
     overflow: hidden;
     text-indent: -9999px;
-    width: 180px;
+    width: 360px;
 }
 
 @media (prefers-color-scheme: dark) {
-    #samsLogo {
-        background: url('../images/samlu-logo-darkmode.svg') 0 0 no-repeat;
+    #gosammyLogo {
+        background: url('../images/gosammy-logo-darkmode.svg') 0 0 no-repeat;
     }
 }
 
+#copyright {
+    @include color-assign(color, secondary-label);
+	font-family: $font-poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+}

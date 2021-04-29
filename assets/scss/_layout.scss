@@ -95,7 +95,7 @@
 					opacity: 1;
 				}
 				&:after {
-					opacity: .45;
+					opacity: .65;
 				}
 			}
 		}
@@ -107,7 +107,7 @@
 		&:before {
 			content: "View Project";
 			color: $color-white;
-			@extend .h2;
+			@extend .h3;
 			font-weight: 800;
 			position: absolute;
 			top: 50%;
@@ -175,7 +175,6 @@
 			float: right;
 			right: 0;
 			width: 40%;
-			position: absolute;
 			right: 5%;
 		}
 	}

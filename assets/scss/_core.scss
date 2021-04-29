@@ -22,7 +22,7 @@ h1,
 }
 
 h2,
-.h2 {	
+.h2 {
 	@include color-assign(color, secondary-label);
 	display: block;
 	font-family: $font-lekton;
@@ -31,7 +31,6 @@ h2,
     letter-spacing: .2rem;
     line-height: 1;
     margin: 0 0 1rem;
-    text-transform: uppercase;
 }
 
 h3,
@@ -56,7 +55,7 @@ a {
 ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 img {
@@ -86,7 +85,7 @@ code {
     @include color-assign(border, secondary-label, '1px solid');
 	border-radius: 3px;
 	font-family: $font-lekton;
-	font-size: 1.5rem;	
+	font-size: 1.5rem;
 	padding: .1rem .4rem;
 
 	var {
@@ -99,7 +98,7 @@ dl {
 
 	dt,
 	dd {
-		font-family: $font-lekton;		
+		font-family: $font-lekton;
 	}
 
 	dt {
@@ -113,9 +112,9 @@ dl {
 
 .responsive-table {
 	margin-bottom: 3rem;
-	
+
 	@media (max-width: $breakpoint-xsmall) {
-		display: block;	
+		display: block;
 		overflow-x: scroll;
 		max-width: $breakpoint-xsmall;
 
@@ -127,7 +126,7 @@ dl {
 }
 
 table {
-	border-collapse: collapse;	
+	border-collapse: collapse;
 	width: 100%;
 
 	thead {
@@ -137,7 +136,7 @@ table {
 		}
 	}
 
-	tbody > tr:nth-child(odd) > td, 
+	tbody > tr:nth-child(odd) > td,
 	tbody > tr:nth-child(odd) > th {
         @include color-assign(background-color, background-alternate);
 	}

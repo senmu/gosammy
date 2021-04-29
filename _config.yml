@@ -1,11 +1,12 @@
 # User config
-author: "Sam Lu"
-tagline: "iOS Developer (and sometimes designer)"
-description: "I'm a native iOS developer based in Calgary, AB who likes to code in Swift, and occasionally do some designing. When not in front of a computer, you can find me woodworking, or baking sourdough."
-keywords: "swift, swiftui, iOS, developer, design, calgary, alberta, canada"
+author: "GoSammy"
+tagline: "Mobile iOS Application Design & Development"
+description: "GoSammy provides consulting on mobile iOS apps, specializing in UI & UX design, all the way to implementation."
+keywords: "swift, swiftui, iOS, developer, development, design, consulting, remote, calgary, alberta, canada"
 linkedin: "https://www.linkedin.com/in/samlu"
 twitter: "https://twitter.com/senmu"
 github: "https://github.com/senmu"
+email: "inquiries@gosammy.com"
 
 # Site config
 baseurl: ""

@@ -1,5 +1,9 @@
 <footer class="footer">
 	<div class="container">
+		<section class="contact">
+			<h2>Contact</h2>
+			<a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a>
+		</section>
 		<section class="follow">
 			<h2>Follow</h2>
 			<ul>
@@ -7,6 +11,11 @@
 				<li><a title="Twitter" href="{{ site.twitter }}" target="_blank">Twitter</a></li>
 				<li><a title="Github" href="{{ site.github }}" target="_blank">Github</a></li>
 			</ul>
+		</section>
+	</div>
+	<div class="container">
+		<section class="copyright">
+			<p id="copyright">&copy; Copyright {{ 'now' | date: "%Y" }} GoSammy Inc.</p>
 		</section>
 	</div>
 </footer>

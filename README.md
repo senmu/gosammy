@@ -1,6 +1,6 @@
-# samlu.ca
+# gosammy.com
 
-Personal portfolio of Sam Lu. It is based on [Pineapple](https://github.com/arnolds/pineapple), a minimalistic [Jekyll](https://jekyllrb.com) portfolio theme that focuses on putting your projects in the spotlight.
+Portfolio for GoSammy Inc. It is based on [Pineapple](https://github.com/arnolds/pineapple), a minimalistic [Jekyll](https://jekyllrb.com) portfolio theme that focuses on putting your projects in the spotlight.
 
 ## Contents
 
@@ -21,8 +21,8 @@ $ gem install jekyll bundler
 Pulldown the project:
 
 ```
-$ git clone git@github.com:senmu/samlu-portfolio.git
-$ cd samlu-portfolio
+$ git clone git@github.com:senmu/gosammy.git
+$ cd gosammy
 ```
 
 Start Jekyll:
@@ -40,7 +40,7 @@ Browse to http://127.0.0.1:4000/ for some portfolio goodness.
 
 ## Creating projects
 
-Projects are created as `.md` documents within the `_posts/projects` directory. They follow the same naming conventions as regular [Jekyll posts](https://jekyllrb.com/docs/posts/). 
+Projects are created as `.md` documents within the `_posts/projects` directory. They follow the same naming conventions as regular [Jekyll posts](https://jekyllrb.com/docs/posts/).
 
 ## Resources
 
