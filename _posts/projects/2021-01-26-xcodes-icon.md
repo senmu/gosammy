@@ -3,6 +3,8 @@ layout: project
 permalink: /:title/
 category: projects
 
+image: "/assets/images/projects/xcodes-icon/xcodes-app-icon.jpg"
+
 meta:
   keywords: "macOS, icon, design, Sketch"
 

@@ -3,6 +3,8 @@ layout: project
 permalink: /:title/
 category: projects
 
+image: "/assets/images/projects/tesco-clubcard/rewards-collage.jpg"
+
 meta:
   keywords: "Swift, Objective-C"
 

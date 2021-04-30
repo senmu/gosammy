@@ -3,6 +3,8 @@ layout: project
 permalink: /:title/
 category: projects
 
+image: "/assets/images/projects/mintsplit/mintsplit-collage.jpg"
+
 meta:
   keywords: "Objective-C"
 
