@@ -11,6 +11,5 @@
 			"sizes": "256x256"
 		}
 	],
-	"theme_color": "#2BABB5",
 	"display": "standalone"
 }
